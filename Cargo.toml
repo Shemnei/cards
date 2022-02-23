@@ -1,0 +1,12 @@
+[package]
+name = "cards"
+version = "0.1.0"
+edition = "2021"
+
+
+[features]
+default = ["shuffle"]
+shuffle = ["rand"]
+
+[dependencies]
+rand = { version = "0.8.5", optional = true }
